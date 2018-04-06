@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+/*Route::namespace('System')->group(function () {
+    Route::get('/teste1', 'LoginController@index');
+});*/

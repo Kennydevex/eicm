@@ -154,11 +154,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        EICM\Providers\AppServiceProvider::class,
+        EICM\Providers\AuthServiceProvider::class,
+        // EICM\Providers\BroadcastServiceProvider::class,
+        EICM\Providers\EventServiceProvider::class,
+        EICM\Providers\RouteServiceProvider::class,
 
     ],
 
@@ -209,6 +209,12 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+
+
+//################################# My Models ##############################
+        'User' => EICM\Models\System\User::class,
+        'Login' => EICM\Models\System\Login::class,
+        'Folk' => EICM\Models\Helpers\Folk::class,
     ],
 
 ];
