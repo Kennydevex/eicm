@@ -19,3 +19,7 @@ Route::get('/', function () {
 /*Route::namespace('System')->group(function () {
     Route::get('/teste1', 'LoginController@index');
 });*/
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
