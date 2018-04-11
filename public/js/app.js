@@ -56070,6 +56070,26 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     mounted: function mounted() {
@@ -56093,6 +56113,42 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("form", { staticClass: "col s12" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "input-field col s6" }, [
+              _c("i", { staticClass: "material-icons prefix" }, [
+                _vm._v("account_circle")
+              ]),
+              _vm._v(" "),
+              _c("input", {
+                staticClass: "validate",
+                attrs: { id: "icon_prefix", type: "text" }
+              }),
+              _vm._v(" "),
+              _c("label", { attrs: { for: "icon_prefix" } }, [
+                _vm._v("First Name")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "input-field col s6" }, [
+              _c("i", { staticClass: "material-icons prefix" }, [
+                _vm._v("phone")
+              ]),
+              _vm._v(" "),
+              _c("input", {
+                staticClass: "validate",
+                attrs: { id: "icon_telephone", type: "tel" }
+              }),
+              _vm._v(" "),
+              _c("label", { attrs: { for: "icon_telephone" } }, [
+                _vm._v("Telephone")
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
       _c("div", { staticClass: "row justify-content-center" }, [
         _c("div", { staticClass: "col-md-8" }, [
           _c("div", { staticClass: "card card-default" }, [
@@ -56102,7 +56158,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
               _vm._v(
-                "\n                    I'm an example component.\n                "
+                "\n                      I'm an example component.\n                  "
               )
             ])
           ])
