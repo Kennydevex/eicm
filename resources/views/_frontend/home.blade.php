@@ -1,5 +1,8 @@
-@extends('_frontend.home')
+@extends('_frontend.layouts.app')
 
-@section('main-content')
+@section('content')
+
+
+
 
 @endsection
