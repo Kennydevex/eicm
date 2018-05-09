@@ -16,3 +16,15 @@
 </script>
 @endpush
 
+<<<<<<< HEAD:resources/views/_frontend/layouts/front_app.blade.php
+=======
+@push('scripts')
+<!-- Scripts -->
+{{--@include('_frontend.layouts.partials.scripts')--}}
+
+<script src="{{ asset('js/app.js') }}"></script>
+
+<script src="{{asset('/js/init.js')}}"></script>
+
+@endpush
+>>>>>>> master:resources/views/_frontend/layouts/app.blade.php
