@@ -21,8 +21,12 @@
     </footer>
 @endsection
 
-@push('script')
+@push('scripts')
 <!-- Scripts -->
-@include('_frontend.layouts.partials.scripts')
+{{--@include('_frontend.layouts.partials.scripts')--}}
+
+<script src="{{ asset('js/app.js') }}"></script>
+
+<script src="{{asset('/js/init.js')}}"></script>
 
 @endpush
