@@ -25,4 +25,4 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::view('/test', 'teste');
-Route::view('/testhome', '_frontend.home');
+Route::view('/testhome', '_frontend.front_home');

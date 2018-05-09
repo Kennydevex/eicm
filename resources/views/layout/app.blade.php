@@ -8,7 +8,8 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
     {{--  ============================= Styles ===========================  --}}
-    @include('layout.partials.styles')
+    <link rel="stylesheet" href="{{mix('/css/normalize.css')}}">
+    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     {{--  ================================================================  --}}
     @stack('styles')   
     {{--  ================================================================  --}}
@@ -19,11 +20,10 @@
     <div id="app-front">
         @yield('main-content')
         {{--  =============================== Scripts ==============================  --}}
-        @include('layout.partials.script')
+        <script src="{{mix('/js/app.js')}}"></script>
         {{--  ======================================================================  --}}
         @stack('scripts')
         {{--  ======================================================================  --}}
-        
     </div>
 </body>
 </html>

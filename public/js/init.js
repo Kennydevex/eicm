@@ -60,26 +60,27 @@
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 47);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./resources/assets/js/init.js":
+/***/ 47:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(48);
+
+
+/***/ }),
+
+/***/ 48:
 /***/ (function(module, exports) {
 
 $(document).ready(function () {
   $('.parallax').parallax();
   $('.sidenav').sidenav();
+  $(".dropdown-trigger").dropdown();
 });
-
-/***/ }),
-
-/***/ 1:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("./resources/assets/js/init.js");
-
 
 /***/ })
 
